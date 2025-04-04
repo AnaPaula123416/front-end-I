@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(58, 18, 133);
+    font-family: monospace;
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+}
+
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+section {
+    color:rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(181, 85, 245);
+}
+
+img {
+height: 500px}
+
+h1 {
+    background-color: rgb(121, 119, 243);
+}
