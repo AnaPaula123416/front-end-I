@@ -1,0 +1,40 @@
+.titulo-principal {
+    margin-bottom: 20px;
+    color: rgb(81, 160, 206);
+}
+
+.destaque{
+    color: rgb(0, 0, 0); 
+    background-color: rgba(131, 81, 212, 0.596);
+}
+
+#especial{
+    font-style: italic; 
+    border-left: 3px solid rgb(255, 0, 106); 
+    padding-left: 5px;
+}
+
+paragrafo-comum{
+    line-height: 1.4;
+}
+
+.bloco-um{
+    .titulo-bloco{
+        background-color: rgb(108, 161, 211);
+        border-bottom: 2px 
+        solid rgb(0, 0, 0);
+    }
+    p{
+        background-color: rgba(38, 0, 255, 0.548);
+    }
+}
+
+.bloco-dois{
+    .titulo-blocoex:{ 
+        font-family: Arial, sans-serif; 
+    }
+
+    p{
+        padding: 10px;
+    }
+}
