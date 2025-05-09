@@ -1,0 +1,25 @@
+
+
+header {
+    background: linear-gradient(135deg, #8b96ac 0%, #000000 100%);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #e2e8f0;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}

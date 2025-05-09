@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(21, 13, 97);
+}
+
+h1 {text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+section {
+    color:rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(255, 174, 0);
+    text-decoration: none;
+}
+
+img {
+height: 500px}
+
+h1 {
+    background-color: rgba(138, 133, 60, 0.486);
+}
+li {
+    color: rgb(3, 0, 0);
+}
+
+.agora {
+    color: rgb(60, 92, 139);
+    text-decoration: none;
+}
+
+.movimento {
+    transition: all 0.3s ease;
+  }
+  
+  .movimento:hover {
+    color: #fff; 
+    background-color: #333; 
+    padding: 5px; 
+    border-radius: 5px; 
+  }
+.titulo {
+    color: black;
+    font-size: small;
+}
+
+
+
+header {
+    background: linear-gradient(135deg, #ffee00 0%);
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+}
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
