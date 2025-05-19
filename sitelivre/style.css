@@ -53,14 +53,14 @@ li {
 header {
     background: linear-gradient(135deg, #ffffff 0%);
     position: sticky;
-    top: 0;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-top: 0px;
 }
-
+/* 
 a {
     color: rgb(255, 0, 0);
     text-decoration: none;
-}
+} */
 
 header nav ul {
     list-style: none;

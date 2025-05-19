@@ -2,12 +2,16 @@ body {
     background-color: rgb(21, 13, 97);
 }
 
-h1 {text-align: center;
-    color:rgb(255, 255, 255);
+h1 {
+    text-align: center;
+    color: rgb(46, 46, 138);
+    background-color: rgba(138, 133, 60, 0.486);
+    font-size: 24px;
+    
 }
 
-
 h2 {
+    text-align: center;
     color: rgb(255, 255, 255);
     
 }
@@ -19,14 +23,13 @@ section {
 a {
     color: rgb(255, 174, 0);
     text-decoration: none;
+
 }
 
 img {
 height: 500px}
 
-h1 {
-    background-color: rgba(138, 133, 60, 0.486);
-}
+
 li {
     color: rgb(3, 0, 0);
 }
@@ -38,33 +41,27 @@ li {
 
 
 .movimento {
-    color: rgb(78, 78, 202);
+    color: rgb(41, 41, 149);
     font-size: 19px;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .movimento:hover{
-    color: rgba(248, 214, 62, 0.767);
+    color: rgb(219, 195, 89);
 }
-
-.titulo {
-    color: black;
-    font-size: small;
-}
-
 
 
 header {
     background: linear-gradient(135deg, #ffee00 0%);
     position: sticky;
     top: 0;
-    border-radius: 10px;
+    border-radius: 20px;
 }
-a {
+/* a {
     color: rgb(255, 0, 0);
-    text-decoration: none;
-}
+    text-decoration: none; */
+/* } */
 header nav ul {
     list-style: none;
     display: flex;
