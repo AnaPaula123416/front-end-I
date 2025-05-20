@@ -7,17 +7,17 @@ h1 {
     color: rgb(46, 46, 138);
     background-color: rgba(138, 133, 60, 0.486);
     font-size: 24px;
-    
+
 }
 
 h2 {
     text-align: center;
     color: rgb(255, 255, 255);
-    
+
 }
 
-section {
-    color:rgb(255, 255, 255);
+h3 section {
+    color: rgb(255, 255, 255);
 }
 
 a {
@@ -26,17 +26,30 @@ a {
 
 }
 
-img {
-height: 500px}
+.centralizar {
+    height: 700px;
+    /* display: block;
+    margin: 0 auto; */
 
+}
 
 li {
     color: rgb(3, 0, 0);
 }
+/* 01
+footer p {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+} */
 
-.agora {
-    color: rgb(60, 92, 139);
+p {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
     text-decoration: none;
+    margin-top: 30px;
 }
 
 
@@ -47,10 +60,9 @@ li {
     transition: color 0.3s ease;
 }
 
-.movimento:hover{
+.movimento:hover {
     color: rgb(219, 195, 89);
 }
-
 
 header {
     background: linear-gradient(135deg, #ffee00 0%);
@@ -58,6 +70,7 @@ header {
     top: 0;
     border-radius: 20px;
 }
+
 /* a {
     color: rgb(255, 0, 0);
     text-decoration: none; */
