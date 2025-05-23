@@ -5,7 +5,7 @@ body {
 
 h1 {
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 35px;
     background-color: rgba(110, 110, 117, 0.607);
     font-weight: bold;
@@ -16,6 +16,7 @@ h2 {
     color: rgb(255, 255, 255);
     font-size: 24px;
     text-align: center;
+    margin-bottom: -10px;
 }
 
 section {
@@ -23,11 +24,25 @@ section {
     font-size: 24px;
 }
 
-
 img {
+    margin-top: 100px;
+    padding-left: 45%;
     height: 500px;
-    ;
 } 
+
+.esquerda {
+    position: absolute;
+    text-align: left;
+    padding-right: 60%;
+    margin-top: -521px;
+}
+
+.esquerda2 {
+    position: absolute;
+    text-align: left;
+    padding-right: 60%;
+    margin-top: -300px;
+}
 
 .topico h2 {
     font-size: 24px;
@@ -41,9 +56,15 @@ ul {
 
 li {
     font-size: 24px;
-    margin-bottom: 12px;
+    margin-bottom: 13px;
 }
 
+.barra-pesquisa {
+    margin-bottom: -15px;
+}
+.bottom {
+    margin-bottom: 100px;
+}
 .movimento {
     color: rgb(110, 110, 117);
     font-size: 24px;
