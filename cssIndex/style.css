@@ -7,7 +7,7 @@
 body {
     font-family: 'poppins', sans-serif;
     background-color: rgb(21, 13, 97);
-    color: #003366;
+    color: #000000;
     padding: 20px;
     
 }
@@ -15,12 +15,12 @@ body {
 h1 {
     text-align: center;
     background-color: #aea74daa;
-    color: rgb(46, 46, 138);
+    color: rgb(0, 0, 0);
     font-size: 24px;
 }
 
 .movimento {
-    color: rgb(41, 41, 149);
+    color: rgb(0, 0, 0);
     font-size: 19px;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -69,7 +69,7 @@ header nav ul li a {
 }
 
 .about p {
-    background-color: rgba(0, 98, 255, 0.15);
+    background-color: rgba(0, 0, 0, 0.15);
     padding: 12px;
     border-radius: 8px;
     font-size: 16px;
@@ -87,7 +87,7 @@ header nav ul li a {
 
 
 .mídia a {
-    color: rgb(41, 41, 149);
+    color: rgb(0, 0, 0);
     font-size: 19px;
     text-decoration: none;
     transition: color 0.3s ease;
