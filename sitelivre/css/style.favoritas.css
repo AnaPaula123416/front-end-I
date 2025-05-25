@@ -2,10 +2,10 @@ body {
     background-color: #ca9984;
     padding: 0px;
     font-family: 'poppins', sans-serif;
+    margin-bottom: 100px;
 }
 
 h1 {
-    
     color: #ffffff;
     text-align: center;
     font-size: 35px;
@@ -24,16 +24,33 @@ h2 {
 }
 
 img {
-    margin-top: 100px;
-    padding-left: 45%;
-    height: 500px;
-
-} 
-
-.texto{
-    color: #ffffff;
-
+    position: absolute;
+    margin-left: 1010px;
+    margin-right: 55px;
+    margin-top: 68px;
 }
+
+.link {
+    color: #613a29;
+    font-weight: bold;
+}
+
+.link {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    transition: color 0.2s ease;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #b46f50;
+}
+
+.texto {
+    margin-top: 100px;
+    color: #ffffff;
+}
+
 .esquerda {
     position: absolute;
     text-align: left;
@@ -41,14 +58,8 @@ img {
     margin-top: -521px;
 }
 
-.esquerda2 {
-    position: absolute;
-    text-align: left;
-    padding-right: 60%;
-    margin-top: -255px;
-}
 
-.topico h2 {
+.topico li {
     font-size: 24px;
     color: #ffffff;
 }
@@ -66,9 +77,11 @@ li {
 .barra-pesquisa {
     margin-bottom: -15px;
 }
+
 .bottom {
     margin-bottom: 100px;
 }
+
 .movimento {
     color: rgb(255, 255, 255);
     font-size: 24px;
@@ -107,4 +120,3 @@ header nav ul li a {
     padding: 0.5rem 1rem;
     border-radius: 4px;
 }
-

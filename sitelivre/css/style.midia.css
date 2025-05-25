@@ -23,30 +23,22 @@ h2 {
     margin-bottom: -10px;
 }
 
-img div {
-    margin-top: 100px;
-    padding-left: 5%;
-    height: 500px;
-
+.midia {
+    float: right;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
-
-
 .texto{
     color: #ffffff;
 
-}
+} 
+
 .esquerda {
     position: absolute;
     text-align: left;
     padding-right: 60%;
     margin-top: -521px;
-}
-
-.esquerda2 {
-    position: absolute;
-    text-align: left;
-    padding-right: 60%;
-    margin-top: -255px;
 }
 
 .topico h2 {
