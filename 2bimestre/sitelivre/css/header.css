@@ -7,11 +7,23 @@
     flex-wrap: wrap;
 }
 
-header {
+header li {
+    font-weight: 20px;
     background-color: rgb(100, 165, 195);
     height: 100px;
+    background: linear-gradient(135deg, rgb(100, 165, 195) 0%);
+    position: sticky;
+    top: 0;
+    border-radius: 20px;
 }
 
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    justify-content: center;
+}
 
 a {
     font-size: var(--tamanhoLink);
