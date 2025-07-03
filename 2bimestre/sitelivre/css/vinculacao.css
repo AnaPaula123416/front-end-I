@@ -1,15 +1,22 @@
 /* header */
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8e6db;
+}
+
 header li {
     font-weight: 20px;
-    background-color: rgb(100, 165, 195);
+    background-color: #29281e;
     height: 45px;
-    background: linear-gradient(135deg, rgb(100, 165, 195) 0%);
+    background: linear-gradient(135deg, #29281e 0%);
     position: sticky;
     top: 10%;
     border-radius: 20px;
     padding: 10px;
     margin-top: 20px;
+
 }
 
 header nav ul {
@@ -23,13 +30,86 @@ header nav ul {
 a {
     font-size: 40px;
     text-decoration: none;
-    color: rgb(12, 74, 115);
+    color: #e8e6db;
     transition: 0.3s;
 }
 
 a:hover {
-    color: rgb(5, 5, 83);
+    color: #e7d4bb;
 }
 
 
 /* -------------------------------------------------------------------------------------- */
+
+/* footer */
+
+.footer {
+    background-color: #101211;
+    color: #fff;
+    padding: 40px 20px 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 20vh;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1 1 250px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+/* .social-icons a {
+    margin-right: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+} */
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #aaa;
+}
