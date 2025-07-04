@@ -33,8 +33,34 @@ header li {
     padding: 10px;
     margin-top: 20px;
 }
+nav ul.ulMenu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
 
-header nav ul {
+nav ul.ulMenu li {
+    font-size: 1.4em;
+}
+
+nav ul.ulMenu a {
+    text-decoration: none;
+    /* color: #791127; */
+    /* background-color: #fff; */
+    padding: 10px 18px;
+    /* border: 2px solid #f3b8c8; */
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+nav ul.ulMenu a:hover {
+    background-color: #ffe2ec;
+    color: rgb(5, 5, 83);
+    transform: scale(1.05);
+}
+/* header nav ul {
     list-style: none;
     display: flex;
     gap: 1.5rem;
@@ -51,7 +77,7 @@ a {
 
 a:hover {
     color: rgb(5, 5, 83);
-}
+} */
 
 /* ---------- Projetos Container ---------- */
 .projetos-container {
@@ -180,11 +206,16 @@ a:hover {
 @media (max-width: 768px) {
     .projetos-container {
         gap: 20px;
+        
     }
 
     .card-projeto {
         flex: 1 1 45%;
         max-width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -193,7 +224,7 @@ a:hover {
 @media (max-width: 768px) {
     .projetos-container {
         gap: 20px;
-        
+
     }
 
     .card-projeto {
