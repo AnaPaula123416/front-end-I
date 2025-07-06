@@ -6,33 +6,22 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Quicksand', sans-serif;
-    background-color: #fdf1f4;
-    /* rosinha claro */
-    color: #560F20;
-    /* vinho escuro */
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e8eae7;
+    color: #4e5164;
     line-height: 1.6;
+    justify-content: center;
+
 }
 
-
-/* /* header */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #e8e6db;
+header {
+    background-color: #959ec9;
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    justify-content: center;
+    border-radius: 35px;
 }
 
-header li {
-    font-weight: 20px;
-    background-color: rgb(100, 165, 195);
-    height: 45px;
-    background: linear-gradient(135deg, rgb(100, 165, 195) 0%);
-    position: sticky;
-    top: 10%;
-    border-radius: 20px;
-    padding: 10px;
-    margin-top: 20px;
-}
 nav ul.ulMenu {
     list-style: none;
     display: flex;
@@ -47,37 +36,19 @@ nav ul.ulMenu li {
 
 nav ul.ulMenu a {
     text-decoration: none;
-    /* color: #791127; */
-    /* background-color: #fff; */
+    color: #28264b;
+    background-color: #e2e5ff88;
     padding: 10px 18px;
-    /* border: 2px solid #f3b8c8; */
+    border: 2px solid #28264b;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
 nav ul.ulMenu a:hover {
-    background-color: #ffe2ec;
-    color: rgb(5, 5, 83);
+    background-color: #37415c;
+    color: #e2e5ff88;
     transform: scale(1.05);
 }
-/* header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-    padding: 1rem;
-    justify-content: center;
-}
-
-a {
-    font-size: 40px;
-    text-decoration: none;
-    color: rgb(12, 74, 115);
-    transition: 0.3s;
-}
-
-a:hover {
-    color: rgb(5, 5, 83);
-} */
 
 /* ---------- Projetos Container ---------- */
 .projetos-container {
@@ -91,8 +62,9 @@ a:hover {
 }
 
 /* ---------- Card de Projeto ---------- */
+
 .card-projeto {
-    background-color: #ecd8e0;
+    background-color: #959ec9;
     border-radius: 20px;
     border: 2px solid transparent;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -109,8 +81,8 @@ a:hover {
 
 .card-projeto:hover {
     transform: translateY(-10px);
-    box-shadow: 0 12px 20px rgba(87, 15, 32, 0.3);
-    border-color: #791127;
+    box-shadow: 0 12px 20px #28264b;
+    border-color: #28264b;
 }
 
 .card-projeto iframe {
@@ -122,15 +94,15 @@ a:hover {
 }
 
 .card-projeto h3 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;
     font-size: 1.8em;
     margin: 10px 0;
-    color: #560F20;
+    color: #28264b;
 }
 
 .card-projeto p {
-    font-family: 'Quicksand', sans-serif;
-    color: #560F20;
+    font-family: 'Times New Roman', Times, serif;
+    color: #28264b;
     font-size: 1em;
     font-weight: 500;
     line-height: 1.4;
@@ -206,7 +178,7 @@ a:hover {
 @media (max-width: 768px) {
     .projetos-container {
         gap: 20px;
-        
+
     }
 
     .card-projeto {

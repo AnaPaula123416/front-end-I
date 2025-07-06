@@ -9,7 +9,20 @@
     <link rel="stylesheet" href="css/tipos.css">
 </head>
 
-<body>
+<body style="margin: 0;">
+    <div style="
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;">
+    </div>
+    <div style="position: relative; z-index: 1; color: white; padding: 40px; text-align: center;">
     <header>
         <nav>
             <ul class="ulMenu">
@@ -23,7 +36,7 @@
     </header>
 
     <main>
-        <h1>Tipos e Popularidade</h1>
+        <h1 class="projetos-container">Tipos e Popularidade</h1>
         <section class="projetos-container">
 
             <div class="projetos-container">
@@ -38,7 +51,7 @@
                         Dança Contemporânea – Mistura elementos do ballet, da dança moderna e de outras influências,
                         focando na
                         liberdade de movimento e na expressão pessoal.</p>
-                </article>
+                    </article>
             </div>
 
             <div class="projetos-container">
@@ -125,6 +138,7 @@
             <p>2025 Front-End I</p>
         </div>
     </footer>
+</div>
 </body>
 
 </html>
