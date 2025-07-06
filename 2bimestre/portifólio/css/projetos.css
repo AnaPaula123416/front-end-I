@@ -1,0 +1,67 @@
+/* ---------- Formulário ---------- */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+form.form-feedback {
+    background-color: #ecd8e0;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: #560F20;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 12px;
+    border: 2px solid #c75c71;
+    border-radius: 10px;
+    font-size: 1em;
+    background-color: #fff;
+    color: #560F20;
+    resize: vertical;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #a77b88;
+}
+
+.form-action {
+    text-align: center;
+}
+
+/* Estilização para o botão de envio */
+button[type="submit"] {
+    background-color: #c75c71;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button[type="submit"]:hover {
+    background-color: #791127;
+}
