@@ -1,0 +1,239 @@
+/* ---------- Estilo Base ---------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e8eae7;
+    color: #4e5164;
+    line-height: 1.6;
+    justify-content: center;
+    background-image: url(../img/fundo.jpg);
+}
+
+header {
+    background-color: #959ec9;
+    /* rosa pastel */
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    justify-content: center;
+}
+
+nav ul.ulMenu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+nav ul.ulMenu li {
+    font-size: 1.4em;
+}
+
+nav ul.ulMenu a {
+    text-decoration: none;
+    color: #28264b;
+    background-color: #e2e5ff88;
+    padding: 10px 18px;
+    border: 2px solid #28264b;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+nav ul.ulMenu a:hover {
+    background-color: #37415c;
+    color: #e2e5ff88;
+    transform: scale(1.05);
+}
+
+
+/* ---------- Formulário ---------- */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+form.form-feedback {
+    background-color: #959ec9;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.08);
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: #28264b;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 12px;
+    border: 2px solid #28264b;
+    border-radius: 10px;
+    font-size: 1em;
+    background-color: #fff;
+    color: #28264b;
+    resize: vertical;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #28264b;
+}
+
+.form-action {
+    text-align: center;
+}
+
+/* Estilização para o botão de envio */
+button[type="submit"] {
+    background-color: #28264b;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button[type="submit"]:hover {
+    background-color: #686c80;
+}
+
+/* ---------- Rodapé ---------- */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1 1 250px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* ---------- Responsividade ---------- */
+
+/* Para telas pequenas: até 00px */
+@media (max-width: 400px) {
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 20px;
+    }
+
+    nav li {
+        font-size: 1.2em;
+    }
+
+    main {
+        padding: 20px 15px;
+    }
+
+    form.form-feedback {
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        padding: 14px 0;
+        font-size: 1.2em;
+    }
+}
+
+/* Para telas muito pequenas: até 320px */
+@media (max-width: 320px) {
+    nav a {
+        padding: 8px 12px;
+        font-size: 1em;
+    }
+
+    nav li {
+        font-size: 1em;
+    }
+
+    label {
+        font-size: 1em;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 0.9em;
+    }
+
+    button[type="submit"] {
+        font-size: 1em;
+    }
+}

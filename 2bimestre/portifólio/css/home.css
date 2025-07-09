@@ -11,8 +11,9 @@ body {
     color: #4e5164;
     line-height: 1.6;
     justify-content: center;
-
+    background-image: url(../img/fundo.jpg);
 }
+
 
 header {
     background-color: #959ec9;
@@ -118,7 +119,7 @@ nav ul.ulMenu a:hover {
     color: #fff;
     padding: 40px 20px 20px;
     font-family: Arial, sans-serif;
-    margin-top: 20vh;
+    margin-top: 10px;
 }
 
 .footer-container {

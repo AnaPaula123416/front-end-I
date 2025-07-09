@@ -7,11 +7,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #e8eae7;
+    background-color: #c9bdfd;
     color: #4e5164;
     line-height: 1.6;
     justify-content: center;
-
+    background-image: url(../img/fundo.jpg);
 }
 
 header {
@@ -118,7 +118,7 @@ nav ul.ulMenu a:hover {
     color: #fff;
     padding: 40px 20px 20px;
     font-family: Arial, sans-serif;
-    margin-top: 20vh;
+    margin-top: 10px;
 }
 
 .footer-container {
