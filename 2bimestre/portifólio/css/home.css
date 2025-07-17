@@ -119,7 +119,8 @@ nav ul.ulMenu a:hover {
     color: #fff;
     padding: 40px 20px 20px;
     font-family: Arial, sans-serif;
-    margin-top: 10px;
+    margin-top: 60px;
+    bottom: 0px;
 }
 
 .footer-container {
